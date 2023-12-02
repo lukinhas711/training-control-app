@@ -8,7 +8,9 @@ export default defineNuxtConfig({
     // doc: https://nuxt.com/modules/eslint
     '@nuxtjs/eslint-module',
     // doc: https://nuxt.com/modules/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // doc: https://nuxt.com/modules/icon
+    'nuxt-icon',
   ],
 
   nitro: {
