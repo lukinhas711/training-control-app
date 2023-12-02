@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
 
   nitro: {
-    preset: 'loudflare-pages'
+    preset: 'cloudflare-pages'
   },
 
   postcss: {
