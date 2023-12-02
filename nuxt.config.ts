@@ -10,6 +10,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
+  nitro: {
+    preset: 'loudflare-pages'
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},
