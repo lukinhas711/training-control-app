@@ -1,6 +1,13 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "training-control-app",
+  "description": "{name} web application",
+  "author": {
+    "name": "Lucas Ribeiro",
+    "email": "lucas.ribeiro711@gmail.com",
+    "url": "http://lucasribeiro.dev.br"
+  },
+  "version": "0.1.0",
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -8,6 +15,16 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukinhas711/training-control-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukinhas711/training-control-app/issues"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
