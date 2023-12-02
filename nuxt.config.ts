@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   modules: [
     // doc: https://nuxt.com/modules/eslint
     '@nuxtjs/eslint-module',
+    // doc: https://nuxt.com/modules/tailwindcss
     '@nuxtjs/tailwindcss'
   ],
 
